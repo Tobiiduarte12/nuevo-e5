@@ -71,7 +71,7 @@ a :hover  {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     }
 .hero-info{
     display: flex;
@@ -80,7 +80,8 @@ a :hover  {
     gap: 20px;
     width: 600px;
     max-width: 1200px;
-    margin: 6rem;
+    margin: 0 6rem;
+    margin-bottom: 3rem;
     margin-top: 170px;
 }
 .hero-info h1 {
@@ -132,7 +133,7 @@ a :hover  {
     background-color: #131415;
     display: flex;
     flex-direction: column;
-    margin: 6rem;
+    margin: 0 6rem;
 }
 .section-2 h2{
     color: #ffffff;
